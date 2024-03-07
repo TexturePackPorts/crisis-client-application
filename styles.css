@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#application-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#application-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#application-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00d2ff;
+    color: white;
+    cursor: pointer;
+}
+
+#application-form button:hover {
+    background-color: #0099cc;
+}
